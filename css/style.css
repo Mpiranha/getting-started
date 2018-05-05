@@ -1,0 +1,24 @@
+body {
+background-color: skyblue;
+text-align: center;
+    color: white;
+    margin: 200px auto;
+}
+
+h1{
+   font-size: 50px;
+    animation: spin 2s 1;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    10%{transform: rotate(90deg);}
+    
+}
+
+h2{font-size: 40px;}
+
+p {font-size: 20px;}
